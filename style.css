@@ -1,0 +1,136 @@
+:root {
+    --color-theme-bg: rgb(49, 54, 40);
+    --color-theme-font: bisque;
+    --color-theme-active: beige;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-theme-bg);
+    color: var(--color-theme-font);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+main {
+    height: fit-content;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.egymas-melle {
+    display: flex;
+}
+
+.oszlop {
+    display: grid;
+    grid-template-rows: repeat(9,1fr);
+    gap: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: fit-content;
+    gap: 0;
+}
+
+.box {
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.white {
+    background-color: aliceblue;
+}
+
+.black {
+    background-color: black;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20vh;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: var(--color-theme-font);
+    color: var(--color-theme-bg);
+    font-weight: bold;
+}
+
+button:hover {
+    box-shadow: 0 0 20px black;
+    transform: scale(1.1); 
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+button:active {
+    background-color: var(--color-theme-active);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.sakk-babu {
+    font-size: 40px;
+    color: black;
+}
+
+.white-text {
+    color: azure;
+}
+
+@media (max-width:480px){
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    .box {
+        width: 10vw;
+        height: 10vw;
+    }
+    
+    p {
+        font-size: 10px;
+    }
+    
+    button {
+        margin-top: 5vh;
+    }
+    
+    .sakk-babu {
+        font-size: 25px;
+    }
+}
