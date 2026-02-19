@@ -19,13 +19,15 @@ function mezokKeverese(lista) {
     }
 }
 ```
+
 ​- A ciklus hátulról előre haladva minden mezőt kijelöl, majd egy véletlenszerűen választott, nála "korábbi" mezővel felcseréli azt. 
 
-###Véletlengenerálás (`math`)
+### Véletlengenerálás (`math`)
 
 ```javascript
 const index = Math.floor(Math.random() * feherBabuKeszlet.length);
 ```
+
 - A Math.random() egy tört számot ad, amit a készlet aktuális hosszával szorzunk, majd a Math.floor() segítségével egész indexszé kerekítünk.
 
 ### Listaelemet eltávolítása (splice)
@@ -34,4 +36,5 @@ A splice() metódus képes elemeket véglegesen kivenni a tömbből, miközben a
 ```javascript
 feherBabuKeszlet.splice(index, 1);
 ```
+
 - Az első paraméter (index) megadja, honnan kezdjük a törlést, a második paraméter (1) pedig azt, hogy hány elemet vegyünk ki onnan.
