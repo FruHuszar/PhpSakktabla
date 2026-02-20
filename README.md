@@ -1,5 +1,7 @@
 # PhpSakktabla
 
+![Borítókép, sakktábla pár bábuval](img.jpg)
+
 ## Funkciók
 PHP által generált statikus tábla, ahol a bábuk elhelyezkedése JavaScript segítségével, kattintásra (`onclick`) véletlenszerűen generálódik.
 - Feladvány: A generált kiindulóhelyzetből hány lépésben adható matt?
