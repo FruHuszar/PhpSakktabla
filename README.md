@@ -1,4 +1,5 @@
 # PhpSakktabla
+https://hussair.lovestoblog.com/
 
 ![Borítókép, sakktábla pár bábuval](img.jpg)
 
