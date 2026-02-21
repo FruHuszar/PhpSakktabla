@@ -23,9 +23,5 @@ include "fuggvenyek.php";
 
 <script src="feladvany.js"></script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-<script>eruda.init();</script>
-
 </body>
 </html>
